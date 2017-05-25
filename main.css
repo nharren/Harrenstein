@@ -1,0 +1,125 @@
+﻿
+html {
+    background: black;
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+    color: white;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+}
+
+#nav {
+    width: 100%;
+    display:table;
+    height: 95px;    
+}
+
+#left, #center, #right {
+    display: table-cell;
+    vertical-align: top;
+    text-align: center;
+}
+
+#left, #right {
+    width: 400px;
+}
+
+#center {
+    padding-top: 15px;
+}
+
+#center p {
+    margin: 0px;
+}
+
+#right {
+    padding-top: 20px;
+}
+
+.audiojs {
+    height: 30px;
+    width: 338px;
+    margin: 8px auto 0px auto;
+    background: none;
+    background-image: none;
+}
+
+.audiojs p {
+    height: 26px;
+}
+
+.audiojs .play-pause {
+    height: 26px;
+}
+
+.audiojs .scrubber {
+    height: 10px;
+    margin: 12px 10px;
+}
+
+.audiojs .loaded {
+    background-image: none;
+    background: #777;
+}
+
+.audiojs .time {
+    display: none;
+}
+
+#track-details {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.75em;
+    margin-top: 5px;
+}
+
+#title {
+    font: bold 26px georgia, serif;
+    letter-spacing: 1px;
+}
+
+#subtitle {
+    font: 14px georgia, serif;
+    letter-spacing: 1px;
+}
+
+#img {
+    background: url(background.png) center center/contain no-repeat;
+    height: calc(100% - 149px);
+}
+
+#contact {
+    float: right;
+}
+
+#contact-button {
+    background: url(contact.png) center center/contain no-repeat;
+    border-width: 0px;
+    height: 24px;
+    width: 24px;
+    margin: 15px 20px;
+}
+
+#contact-form {
+    display: none;
+    z-index: 0;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+.row {
+    padding: 5px 0px;
+}

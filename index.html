@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nathan Harrenstein: Cellist</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="main.css" />
+        <script src="audiojs/audio.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div id="nav">
+            <div id="left">
+                <audio src="audio/arpeggione.mp3" type="audio/mpeg" preload="auto"></audio>
+                <div id="track-details">
+                    F. Schubert — Arpeggione Sonata, D.821: I. Allegro moderato
+                </div>
+            </div>
+            <div id="center">
+                <p id="title">NATHAN HARRENSTEIN</p>
+                <p id="subtitle">CELLIST</p>
+            </div>
+            <ul id="right">
+                <li><a href="https://github.com/nharren"><img src="github.png" alt="GitHub" /></a></li>
+                <li><a href="https://www.youtube.com/user/nharren1"><img src="youtube.png" alt="YouTube" /></a></li>
+                <li><a href="https://www.flickr.com/photos/nharren/albums"><img src="flickr.png" alt="Flickr" /></a></li>
+                <li><a href="https://www.linkedin.com/in/nathan-harrenstein-558435bb"><img src="linkedin.png" alt="LinkedIn" /></a></li>
+                <li><a href="https://twitter.com/nharrenstein"><img src="twitter.png" alt="Twitter" /></a></li>
+                <li><a href="https://www.facebook.com/nathan.harrenstein"><img src="facebook.png" alt="Facebook" /></a></li>
+            </ul>
+            
+        </div>
+        <div id="img"></div>
+        <div id="contact">
+            <form id="contact-form" action="#" method="POST" enctype="multipart/form-data">
+                <div class="row">
+                    <label for="name">Name:</label><br />
+                    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+                </div>
+                <div class="row">
+                    <label for="email">Email:</label><br />
+                    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+                </div>
+                <div class="row">
+                    <label for="message">Message:</label><br />
+                    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+                </div>
+                <input id="submit-button" type="submit" value="Send" onclick="sendMessage()" />
+            </form>
+            <button id="contact-button" type="button" onclick="showContactForm()" />
+        </div>
+    </body>
+</html>
